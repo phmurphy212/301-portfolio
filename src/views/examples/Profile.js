@@ -73,7 +73,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="https://www.linkedin.com/in/philmurphy212/" target="_blank">
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -90,20 +90,10 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://www.linkedin.com/in/philmurphy212/"
                           size="sm"
                         >
                           Connect
-                        </Button>
-                        <Button
-                          className="float-right"
-                          color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Message
                         </Button>
                       </div>
                     </Col>
