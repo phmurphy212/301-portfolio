@@ -25,7 +25,8 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/profile-picture.jpg";
+import profile from "assets/img/theme/profile-picture2.jpg";
+
 
 class Profile extends React.Component {
   componentDidMount() {
